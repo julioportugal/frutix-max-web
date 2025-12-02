@@ -1,0 +1,81 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background: #f8fff8;
+}
+
+h1 {
+    font-size: 42px;
+    margin-top: 10px;
+}
+
+p, li {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.seccion {
+    background: #e8ffe8;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.btn {
+    background: #4CAF50;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 230px;
+}
+
+.marquee {
+    font-size: 26px;
+    background: #4caf50;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.pie {
+    margin-top: 40px;
+    padding: 15px;
+    background: #e6e6e6;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-servicios {
+    width: fit-content;
+    margin: auto;
+    font-size: 22px;
+}
+
+.centrar {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
