@@ -1,8 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
+/* Que el body ocupe toda la pantalla */
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+}
+
+/* Estructura flexible para que el footer se pegue abajo */
+body {
+    font-family: Arial, sans-serif;
     background: #f8fff8;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -56,24 +64,19 @@ h2 {
 }
 
 .pie {
-    margin-top: 20px; /* reducido para evitar huecos */
     padding: 15px;
     background: #e6e6e6;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: auto;   /* empuja el footer al fondo */
 }
 
 .lista-servicios {
     width: fit-content;
     margin: auto;
     font-size: 22px;
-}
-
-.centrar {
-    text-align: center;
-    margin-top: 25px;
 }
 
 .galeria {
@@ -94,7 +97,7 @@ h2 {
     flex-direction: column;
     text-align: center;
     gap: 10px;
-    margin-top: 10px;
   }
 }
+
 
