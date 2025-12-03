@@ -1,45 +1,16 @@
-/* Que el body ocupe toda la pantalla */
 html, body {
-    height: 100%;
+    height: 100%;              /* que el body ocupe toda la pantalla */
     margin: 0;
     padding: 0;
 }
 
-/* Estructura flexible para que el footer se pegue abajo */
 body {
     font-family: Arial, sans-serif;
     background: #f8fff8;
-    display: flex;
-    flex-direction: column;
+    display: flex;             /* estructura flexible */
+    flex-direction: column;    /* contenido en columna */
 }
 
-/* Menú de navegación */
-.navbar {
-    background: #4CAF50;
-    padding: 10px;
-}
-
-.navbar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.navbar ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.navbar ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Encabezados y textos */
 h1 {
     font-size: 42px;
     margin-top: 10px;
@@ -58,7 +29,6 @@ h2 {
     text-align: center;
 }
 
-/* Sección principal */
 .seccion {
     background: #e8ffe8;
     padding: 20px;
@@ -67,7 +37,6 @@ h2 {
     border-radius: 12px;
 }
 
-/* Botón */
 .btn {
     background: #4CAF50;
     padding: 12px 25px;
@@ -77,14 +46,12 @@ h2 {
     font-size: 20px;
 }
 
-/* Logo */
 .logo {
     display: block;
     margin: 20px auto;
     width: 230px;
 }
 
-/* Marquee */
 .marquee {
     font-size: 26px;
     background: #4caf50;
@@ -94,7 +61,6 @@ h2 {
     border-radius: 10px;
 }
 
-/* Footer */
 .pie {
     padding: 15px;
     background: #e6e6e6;
@@ -102,17 +68,15 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: auto;   /* empuja el footer al fondo */
+    margin-top: auto;          /* empuja el footer al fondo */
 }
 
-/* Lista de servicios */
 .lista-servicios {
     width: fit-content;
     margin: auto;
     font-size: 22px;
 }
 
-/* Galería */
 .galeria {
     display: flex;
     justify-content: center;
@@ -130,10 +94,6 @@ h2 {
   .pie {
     flex-direction: column;
     text-align: center;
-    gap: 10px;
-  }
-  .navbar ul {
-    flex-direction: column;
     gap: 10px;
   }
 }
